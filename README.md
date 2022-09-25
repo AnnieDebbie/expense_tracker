@@ -1,10 +1,10 @@
 # Expense_tracker
 
-This is a React JS app. It is a product of the highly-rated full-react course by Maximilian Schwarzmüller on Udemy.
+- This is a React JS app. It is a product of the highly-rated full-react course by Maximilian Schwarzmüller on Udemy.
 
-The app allows you track your yearly, daily and monthly expenditure through charts that visualize expense data
+- The app lets you track your yearly, daily and monthly expenditure through charts that visualize expense data
 
-Building the app allows me learn the following:
+- Building the app allows me learn the following:
 
 * All the core basics: How React works, building components with React & building UIs with React
 * Components, props & dynamic data binding. Functional components, class components
