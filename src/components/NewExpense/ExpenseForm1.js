@@ -5,7 +5,6 @@ function ExpenseForm1(props) {
   const [enteredTitle, setEnteredTitle] = useState("");
   const [enteredAmount, setEnteredAmount] = useState(0);
   const [enteredDate, setEnteredDate] = useState("");
-  const [isBtnClicked, setIsBtnClicked] = useState(false);
 
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
@@ -34,11 +33,7 @@ function ExpenseForm1(props) {
     setEnteredDate("");
   };
 
-  const toggleForm = () => {
-    setIsBtnClicked((prevClickState) => !prevClickState);
-  };
-
-  return isBtnClicked ? (
+  return (
     <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
         <div className="new_expense__control">
@@ -73,20 +68,14 @@ function ExpenseForm1(props) {
         </div>
       </div>
 
-
       <div className="new-expense__actions">
-       
-        <button onClick={toggleForm}> Cancel </button>
+        <button type="button" onClick={props.onCancel}>
+          {" "}
+          Cancel{" "}
+        </button>
         <button type="submit"> Add expense </button>
       </div>
     </form>
-  ) : (
-    <div className="">
-      <button onClick={toggleForm} type="submit">
-        {" "}
-        Add expense{" "}
-      </button>
-    </div>
   );
 }
 
