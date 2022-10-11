@@ -1,6 +1,6 @@
 # Expense_tracker
 
-- This is a React JS app. It is a product of the highly-rated full-react course by Maximilian Schwarzmüller on Udemy.
+- This is a React JS app. It is a product of the [highly-rated full react course](https://www.udemy.com/share/101Wby3@AL6jvz7avmmgWW50Kxn5N0dQzKTsUJ4h9tNtC8od8-bVWvd8HjavtwjX_bg8kgjX/) by Maximilian Schwarzmüller on Udemy.
 
 - The app lets you track your yearly, daily and monthly expenditure through charts that visualize expense data
 
